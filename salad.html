@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salads</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        header {
+            background-color: #2e8b57;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        main {
+            padding: 20px;
+        }
+        .salad-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .salad-item {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+            width: calc(33% - 20px);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .salad-item img {
+            width: 100%;
+            height: auto;
+            border-bottom: 1px solid #ddd;
+        }
+        .salad-item h2 {
+            margin: 10px 0;
+            color: #333;
+        }
+        .salad-item p {
+            padding: 0 10px 20px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Fresh Salads</h1>
+    </header>
+    <main>
+        <h2>Our Salad Selection</h2>
+        <div class="salad-list">
+            <div class="salad-item">
+                <img src="Cobb Salad.jpeg" alt="Cobb Salad">
+                <h2>Cobb Salad</h2>
+	<h2>Price : 120/-</h2>
+                <p>Mixed greens, grilled chicken, bacon, eggs, avocado, and blue cheese dressing.</p>
+            </div>
+            <div class="salad-item">
+                <img src="Fruit Salad.jpg" alt="Fruit Salad">
+                <h2>Fruit Salad</h2>
+	<h2>Price : 95/-</h2>
+                <p>A colorful mix of seasonal fruits, lightly dressed with a honey-lime syrup.</p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
