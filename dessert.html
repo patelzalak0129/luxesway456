@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desserts</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        header {
+            background-color: #d2691e;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        main {
+            padding: 20px;
+        }
+        .dessert-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .dessert-item {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+            width: calc(33% - 20px);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .dessert-item img {
+            width: 100%;
+            height: auto;
+            border-bottom: 1px solid #ddd;
+        }
+        .dessert-item h2 {
+            margin: 10px 0;
+            color: #333;
+        }
+        .dessert-item p {
+            padding: 0 10px 20px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Delicious Desserts</h1>
+    </header>
+    <main>
+        <h2>Our Selection</h2>
+        <div class="dessert-list">
+            <div class="dessert-item">
+                <img src="chocolate.jpg" alt="Chocolate Cake">
+                <h2>Chocolate Cake</h2>
+	<h2> Price: 150/- </h2>
+                <p>A rich and moist chocolate cake, topped with creamy chocolate ganache and chocolate shavings.</p>
+            </div>
+            <div class="dessert-item">
+                <img src="Cheesecake.jpeg" alt="Cheesecake">
+                <h2>Cheesecake</h2>
+	<h2> Price: 200/-</h2>
+                <p>A smooth and creamy cheesecake with a graham cracker crust, topped with fresh berries.</p>
+            </div>
+            <div class="dessert-item">
+                <img src="Ice Cream Sundae.jpeg" alt="Ice Cream Sundae">
+                <h2>Ice Cream Sundae</h2>
+	<h2> Price: 180/-</h2>
+                <p>Vanilla ice cream topped with chocolate syrup, whipped cream, nuts, and a cherry on top.</p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
